@@ -1,0 +1,13 @@
+file_format: "1"
+id: stingy
+name: stingy
+type: shield
+url: https://github.com/ogruendel/bug54-zmk-config/
+requires:
+  - pro_micro
+features:
+  - keys
+  - studio
+siblings:
+  - stingy-left
+  - stingy-right
