@@ -2,7 +2,7 @@ file_format: "1"
 id: stingy
 name: stingy
 type: shield
-url: https://github.com/ogruendel/bug54-zmk-config/
+url: https://github.com/tomy5454/zmk-stingy
 requires:
   - pro_micro
 features:
