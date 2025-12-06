@@ -17,11 +17,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &kp KP_N0  &kp KP_N0  &kp KP_N0     &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp KP_N0  &kp KP_N0  &kp KP_N0     &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp KP_N0  &kp KP_N0  &kp KP_N0     &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp KP_N0  &kp DOT &kp DOT    &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans
+&trans  &trans  &kp KP_N0  &kp KP_N0  &kp KP_N0  &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp KP_N0  &kp KP_N0  &kp KP_N0  &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp KP_N1  &kp KP_N0  &kp KP_N0  &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &kp KP_N0  &kp DOT    &kp DOT    &trans  &trans  &trans  &trans  &trans  &trans
+                &trans     &trans     &trans     &trans     &trans  &trans  &trans  &trans
             >;
         };
 
