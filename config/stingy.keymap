@@ -47,7 +47,7 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans        &trans        &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&to 7   &trans  &trans        &trans        &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &sys_reset        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &bt BT_CLR    &trans        &trans        &studio_unlock    &trans  &trans  &trans  &trans  &trans  &trans
@@ -87,7 +87,7 @@
 
         layer_9 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &none   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
