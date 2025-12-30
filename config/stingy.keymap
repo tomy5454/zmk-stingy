@@ -7,8 +7,29 @@
         uptool: uptool {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp UP_ARROW &kp O>;
+            bindings = <&kp E &kp U>;
             label = "UPTOOL";
+        };
+
+        downtool: downtool {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp O>;
+            label = "DOWNTOOL";
+        };
+
+        upnatt: downatt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp J>;
+            label = "DOWNATT";
+        };
+
+        downatt: downatt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp J>;
+            label = "DOWNATT";
         };
     };
 
@@ -87,11 +108,11 @@
 
         layer_9 {
             bindings = <
-&to 0   &none   &none  &none  &none  &none    &none   &none  &none  &none  &none  &none
-&none  &none   &none  &none  &none  &none    &none   &none  &none  &none  &none  &none
-&none  &none   &none  &none  &none  &none    &none   &none  &none  &none  &none  &none
-&none  &none   &none  &none  &none  &none    &none   &none  &none  &none  &none  &none
-                &none  &none  &none  &none    &none  &none  &none  &none
+&to 0    &none  &none  &none  &none      &none    &none  &none      &none    &none  &none  &none
+&kp TAB  &kp A  &none  &kp E  &none      &none    &none  &upnatt    &kp I    &kp O  &none  &none
+&none    &none  &kp S  &kp D  &kp F      &none    &none  &kp J      &kp K    &kp L  &none  &none
+&none    &none  &none  &none  &none      &none    &none  &downatt   &none    &none  &none  &none
+                &none  &none  &kp SPACE  &none    &kp U  &downtool  &uptool  &none
             >;
         };
     };
